@@ -1,0 +1,414 @@
+body {
+  color: #3b3a3a;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: normal;
+  overflow-x: hidden;
+}
+
+.navbar-brand{
+  font-family: 'forte';
+  font-size: 30px;
+}
+
+.navbar-nav {
+  font-size: 15px;
+  font-family: 'poppins';
+  color: #ffff;
+}
+
+.carousel-item {
+  height: 65vh;
+  font-size: 15px;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-2{
+  size: 500px;
+}
+
+.content-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 80px;
+  border-top: 2px solid #eeeeee;
+}
+
+.content-1 img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  flex-wrap:wrap;
+}
+
+.content-1-text h2 {
+  font-size: 40px;
+  color: #0000FF;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.content-1-text p {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.content-2{
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.content-2-text h2 {
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: auto;
+  text-align: center;
+}
+
+.content-2-text p {
+  font-size: 15px;
+  margin: 10px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+.content-2 {
+  margin: 0px 50px;
+}
+
+.card-text{
+  font-family: 'poppins';
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.card-text-1{
+  font-family: 'poppins';
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+  line-height: 30px;
+}
+
+.content-2-text-1 p {
+  font-size: 15px;
+  margin: 10px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+.content-2-text-1 h3 {
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+  color: #0000ff;
+  text-transform: uppercase;
+  line-height: 20px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.btn-group1{
+  display: block;
+  text-align: center;
+}
+
+.container-4{
+  margin: 50px 80px;
+  text-align: center;
+}
+
+.content-3-text h2{
+  font-size: 40px;
+  color: #000000;
+  margin-top: auto;
+  text-align: center;
+  padding-bottom: 60PX;
+  color: #0000FF;
+}
+
+.content-3 p{
+  font-size: 15px;
+  line-height: 20px;
+  color: #000;
+}
+
+.content-3 h6{
+  font-size: 20px;
+  padding-top: 20px;
+  line-height: 20px;
+  color: #000;
+}
+
+.container-5{
+  padding: 50px 300px;
+  margin:center;
+  text-align: center;
+}
+
+/*login*/
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  font-size: 15px;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 500px;
+  margin: 0 auto 100px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form h2{
+  font-size: 30px;
+  font-family: "poppins";
+  font-weight: bolder;
+  line-height: 50px;
+  color: #000;
+}
+
+.form-floating{
+  font-size: 30px;
+}
+
+.form-floating input {
+  font-family: "poppins";
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.form-floating label{
+font-size: 14px;
+}
+
+.form button {
+  font-family: "poppins";
+  text-transform: uppercase;
+  outline: 0;
+  background: #0000FF;
+  width: 50%;
+  border: 0;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #0000FF;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #a4a3a3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #0000FF;
+  text-decoration: none;
+}
+
+/*sign up*/
+.register-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.invalid-feedback{
+  font-size: 10px;
+  text-align: left;
+}
+
+/* TIMELINE */
+.container-forms {
+  margin: 30px 30px;
+  border: 10px #000;
+  box-shadow: 10px #000;
+}
+
+.well{
+  font-size: 20px;
+  color: #0000FF;
+}
+
+.form-horizontal{
+  width: 150%;
+}
+
+.form-group :placeholder-shown{
+  font-size: 13px;
+  color: #ebebeb;
+  font-style: italic;
+}
+
+.form-group textarea{
+  background: #ffffff;
+}
+
+.form-horizontal button{
+  width: 20%;
+  margin-top: 20px;
+  font-family: "poppins";
+  outline: 0;
+  background: #0000Ff;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #eeeeee;
+}
+
+/* COUNSELLING */
+
+.consult{
+justify-content: center;
+align-items: center;
+padding: 40px 80px;
+position: relative;
+}
+
+.consult-text h2 {
+font-size: 30px;
+color: #0000ff;
+text-transform: uppercase;
+margin-top: auto;
+text-align: center;
+}
+
+.consult-text p {
+font-size: 15px;
+margin: 10px;
+text-align: center;
+color: #000000;
+text-transform: justify;
+line-height: 5px;
+margin-bottom: 50px;
+}
+
+.consult {
+margin: 0px 50px;
+}
+
+.consult1{
+justify-content: center;
+align-items: center;
+padding: 10px 100px 10px 100px;
+position: center;
+}
+
+.consult1 {
+margin: center;
+}
+
+.card-nama{
+font-family: 'poppins';
+color: #000000;
+line-height: 10px;
+font-weight: bold;
+margin-left: 10px;
+}
+
+.card-nama h5{
+font-family: 'poppins';
+font-size: 13px;
+color: #000;
+text-align: left;
+
+}
+
+.card-nama ul{
+font-family: 'poppins';
+font-size: 12px;
+color: #000;
+text-align: left;
+line-height:20px;
+}
+
+.btn-group{
+display: block;
+text-align: center;
+padding: 0px 0px 10px 350px;
+}
+
+.container-choose{
+margin: 50px 80px;
+text-align: center;
+}
+
+.btn-group2{
+display: block;
+text-align: center;
+padding: 0px 0px 10px 310px;
+}
+
+/*profile*/
+
+.container-fluid {
+padding: 50px 70px;
+margin: auto;
+}
+
+.container-pro {
+padding: 10px 200px;
+text-align: center;
+margin: auto;
+}
+
+.lengkap{
+margin:auto;
+}
+
+.container-edit {
+padding: 10px 200px;
+margin: auto;
+}
+
+.btn-group3{
+display: block;
+text-align: left;
+}
+
+.btn-group4{
+display: block;
+text-align: center;
+padding: 0px 0px 10px 340px;
+}
+
+.lengkap{
+text-align: left;
+margin: auto;
+}
