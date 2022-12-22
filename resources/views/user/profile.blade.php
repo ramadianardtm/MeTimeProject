@@ -30,9 +30,10 @@
           </strong>
           <hr>
           <strong>
-            <a href="#" class="text-decoration-none" type="submit" class="dropdown-item">
-              <i class="fas fa-sign-out-alt mr-2"></i>
-              &nbsp; LogOut </a>
+            <form action="/logout" method="post">
+              @csrf
+              <button type="submit" class="dropdown-item"><i class='fas fa-sign-out-alt'></i> &nbsp; Logout</a></button>
+            </form>
           </strong>
 
         </div>
@@ -68,7 +69,7 @@
               <tbody>
                 <tr>
                   <td>
-                  {{ $index +1 }}
+                    {{ $index +1 }}
                   </td>
                   <td>
                     {{$us->dokter}}

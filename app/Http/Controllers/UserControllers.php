@@ -36,7 +36,8 @@ class UserControllers extends Controller
 
     public function histori()
     {
-        $user = CreateConsult::find(Auth::user()->id)->get();
+        $kita=User::find(Auth::user()->id);
+        $user = CreateConsult::all()->where('user_id',$kita->id);
         
         return view('user.histori')->with('user',$user)->with('title','History Counsult');  
     }
