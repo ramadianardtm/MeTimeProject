@@ -15,11 +15,16 @@ class UserControllers extends Controller
 {
     public function index()
         {
-
-        $user = CreateConsult::find(Auth::user()->id)->get();
-        
-            
-        return view('user.profile')->with('user',$user)->with('title','Profile');  
+        $kita=User::find(Auth::user()->id);
+        $user = CreateConsult::all()->where('user_id',$kita->id);
+        // $user = CreateConsult::find(Auth::user()->id)->get();
+        if($user){
+            return view('user.profile')->with('user',$user)->with('title','Profile'); 
+        }
+        else{
+            return view('user.profile')->with('title','Profile');
+        }
+ 
         }
 
     public function profile()

@@ -51,7 +51,6 @@
           <h5 style="margin-top: 20px;font-weight:bold;">Tidak ada jadwal konsultasi</h5>
         </div>
         @else
-
         <div class="card-body">
           <div class="table-responsive">
             <table class="table">

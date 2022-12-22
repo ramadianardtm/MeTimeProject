@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('create_consults', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->references('id')->on('users')->cascadeOnUpdate()->cascadeOnDelete();
             $table->string('dokter'); 
             $table->string('namars');           
             $table->date('tanggal');

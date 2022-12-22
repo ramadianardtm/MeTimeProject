@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Choose;
 use App\Models\Consult;
 use App\Models\CreateConsult;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 
@@ -53,6 +54,7 @@ class CounsellingController extends Controller
          
          $create = new CreateConsult();
          $create->dokter = $request->dokter;
+         $create->user_id = Auth::user()->id;
          $create->namars = $request->namars;
          $create->tanggal = $request->tanggal;
          $create->waktu = $request->waktu;
